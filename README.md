@@ -8,7 +8,7 @@ Review service has been developed on Java
 # Build Docker Image for review service
 docker build -t reviews .
 
-# Run reviews service on port 8081
+# Run reviews service on port 8082
 docker run -d --name reviews -p 8082:9080 reviews
 ```
 
