@@ -1,5 +1,5 @@
 services:
-  details:
+  reviews:
     build: .
     image: ghcr.io/famedirtyshit/bookinfo-reviews:dev
     ports:
